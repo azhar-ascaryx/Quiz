@@ -10,9 +10,6 @@ const time_line = document.querySelector("header .time_line");
 const timeText = document.querySelector(".timer .time_left_txt");
 const timeCount = document.querySelector(".timer .timer_sec");
 
-let ansSelected = "";
-console.log(ansSelected);
-
 // if startQuiz button clicked
 start_btn.onclick = () => {
   info_box.classList.add("activeInfo"); //show info box
@@ -40,6 +37,7 @@ let userScore = 0;
 let counter;
 let counterLine;
 let widthValue = 0;
+let ansSelected = "";
 
 const restart_quiz = result_box.querySelector(".buttons .restart");
 const quit_quiz = result_box.querySelector(".buttons .quit");
